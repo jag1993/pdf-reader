@@ -1,5 +1,6 @@
 node_modules
-
+PDF.pdf
+my.csv
 # Logs
 logs
 *.log

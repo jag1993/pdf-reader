@@ -17,6 +17,9 @@ const ws = fs.createWriteStream('my.csv');
 let eventsData =[];
 
 //PDF parsed 
+//CONSIDER USING MAP
+// MAP DOES SOMETHING TO THE ARRAY AND SPITS IT OUT AFTER A RETURN
+// STUDY ON MAP
 function success(result)
 {
   result.pageTables.forEach((data)=>{
